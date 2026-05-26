@@ -1,0 +1,14 @@
+.credits {
+  color: var(--color-text-muted);
+  position: fixed;
+  bottom: var(--space-6);
+  left: var(--space-6);
+  font-size: var(--font-size-caption);
+  line-height: var(--line-height-caption);
+  text-align: center;
+}
+
+.credits a {
+  color: var(--color-text-inverse);
+  font-weight: var(--font-weight-bold);
+}

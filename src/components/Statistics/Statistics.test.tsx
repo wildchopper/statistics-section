@@ -48,7 +48,7 @@ describe('Statistics', () => {
     expect(await screen.findByText('Downloads')).toBeInTheDocument()
     expect(screen.getByText('Paid users')).toBeInTheDocument()
     expect(screen.getByText('Images in library')).toBeInTheDocument()
-    expect(screen.getByText('12000')).toBeInTheDocument()
+    expect(screen.getByText('12,000')).toBeInTheDocument()
     expect(screen.getAllByRole('listitem')).toHaveLength(3)
   })
 

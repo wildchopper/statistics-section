@@ -7,7 +7,7 @@ describe('StatCard', () => {
     render(<StatCard value={12000} name='Downloads' />)
 
     expect(screen.getByRole('listitem')).toBeInTheDocument()
-    expect(screen.getByText('12000')).toBeInTheDocument()
+    expect(screen.getByText('12,000')).toBeInTheDocument()
     expect(
       screen.getByRole('heading', { level: 3, name: 'Downloads' }),
     ).toBeInTheDocument()
